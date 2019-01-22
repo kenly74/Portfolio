@@ -1,0 +1,43 @@
+/*----------------------------RETOUR------------------------------------*/
+#retour {
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 0 2em 0;  
+}
+/*----------------------------Slider------------------------------------*/
+#sliders{
+  width: 90vw;
+  margin: auto;
+}
+.mySlides {display:none;}
+#precedent, #suivant {
+  position: absolute;
+  top: 25vw;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#precedent:hover, #suivant:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+#precedent {
+  border-radius: 0 2px 2px 0;
+}
+
+#suivant {
+  right: 80px;
+  border-radius: 2px 0 0 2px;
+}
